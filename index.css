@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    height:100%;
+     
+
+}
+
+
+
+/* header qism bu yerda */
+.header{
+    
+    background-color: #00B7EB;
+    height: 25%;
+  
+   
+}
+
+/* hero qism */
+.hero {
+    text-align: center;
+    background-color: #FF0000;
+     height: 25%;
+    
+    
+}
+
+/* content qism bu */
+.content{
+    text-align: center;
+    background-color: #00FF00;
+     width: 50%;
+      
+    
+}
+
+/* sidebar qism*/
+.sidebar{
+     text-align: center;
+    background-color: #800080;
+    width: 50%;
+    
+
+}
+
+/*footer qism*/
+.footer{
+     text-align: center;
+    background-color: #444444;
+    height:25%;
+     
+   
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+     height: 25%;
+     
+}
+
+/*h1 elemntini barchasiga css hosssasini bir varakayiga berayabman. clas bermadim.*/
+ h1{
+    text-align:center;
+    padding-top: 50px;
+    
+}
+/* mediaga moljallangan joy*/
+@media only screen and (max-width: 600px) {
+    .container{
+    display: flex;
+    flex-direction: column;
+    height:40%;
+}
+
+
+
+.content{
+    width: 100%;
+    
+    
+}
+.sidebar{
+    width: 100%;
+     
+}
+.footer{
+    height:20%;
+}
+.hero{
+    height:20%;
+}
+.header{
+    height:20%;
+}
+
+
+    
+}
+
+
